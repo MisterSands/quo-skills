@@ -34,6 +34,15 @@ Organization Settings → Skills.
 surface (claude.ai connector settings, or `claude mcp add` for the CLI). Each
 skill checks for it and tells you if it's missing.
 
+## Contributing / editing a skill
+
+Skill sources live in `skills/<name>/SKILL.md`. After editing one, regenerate
+the distribution zips so `dist/` stays in sync:
+
+```powershell
+powershell -NoProfile -File build.ps1
+```
+
 ## Privacy note
 
 These skills read your call transcripts and messages **inside your own Claude
