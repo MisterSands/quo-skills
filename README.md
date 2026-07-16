@@ -15,6 +15,7 @@ the Quo NYC community.
 | `/quo-promises` | Scans your call transcripts for commitments you made ("I'll send that over") and flags the ones you haven't kept — with a make-good draft. |
 | `/quo-inbox-zero` | Triages every open text thread: who's waiting on you, who went quiet, what can close. Drafts the replies and nudges. |
 | `/quo-daily-pulse` | Morning brief: yesterday's calls, missed calls needing rescue, threads awaiting reply, open tasks — and the one thing to do first. |
+| `/quo-overdue` | Past-due task checker: finds your Quo tasks that are overdue, due today, or undated-and-going-stale, and helps close them out. |
 
 ## The one rule every skill follows
 
